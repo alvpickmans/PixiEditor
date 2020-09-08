@@ -13,6 +13,7 @@
         Polygon,
         Eraser,
         Brightness,
-        ColorPicker
+        ColorPicker,
+        Zoom
     }
 }
