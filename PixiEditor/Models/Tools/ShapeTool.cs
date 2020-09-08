@@ -23,7 +23,7 @@ namespace PixiEditor.Models.Tools
 
         public abstract override LayerChange[] Use(Layer layer, Coordinates[] coordinates, Color color);
 
-        protected Coordinates[] GetThickShape(Coordinates[] shape, int thickness)
+        protected static Coordinates[] GetThickShape(Coordinates[] shape, int thickness)
         {
             List<Coordinates> output = new List<Coordinates>();
             for (int i = 0; i < shape.Length; i++)
@@ -34,7 +34,7 @@ namespace PixiEditor.Models.Tools
         }
 
 
-        protected DoubleCords CalculateCoordinatesForShapeRotation(Coordinates startingCords,
+        protected static DoubleCords CalculateCoordinatesForShapeRotation(Coordinates startingCords,
             Coordinates secondCoordinates)
         {
             Coordinates currentCoordinates = secondCoordinates;

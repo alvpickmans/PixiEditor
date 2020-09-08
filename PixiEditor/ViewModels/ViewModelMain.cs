@@ -226,7 +226,7 @@ namespace PixiEditor.ViewModels
             ToolSet = new ObservableCollection<Tool>
             {
                 new MoveTool(), new PenTool(), new SelectTool(), new FloodFill(), new LineTool(),
-                new CircleTool(), new RectangleTool(), new EraserTool(), new ColorPickerTool(), new BrightnessTool()
+                new CircleTool(), new RectangleTool(), new PolygonTool(), new EraserTool(), new ColorPickerTool(), new BrightnessTool()
             };
             ShortcutController = new ShortcutController
             {

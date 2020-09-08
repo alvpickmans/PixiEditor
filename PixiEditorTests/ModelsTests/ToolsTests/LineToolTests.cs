@@ -20,9 +20,8 @@ namespace PixiEditorTests.ModelsTests.ToolsTests
         [InlineData(100)]
         public void TestThatCreateLineCreatesDiagonalLine(int length)
         {
-            LineTool lineTool = new LineTool();
 
-            var line = lineTool.CreateLine(new Coordinates(0,0), new Coordinates(length - 1, length - 1), 1);
+            var line = LineTool.CreateLine(new Coordinates(0,0), new Coordinates(length - 1, length - 1), 1);
 
             Assert.Equal(length, line.Length);
 

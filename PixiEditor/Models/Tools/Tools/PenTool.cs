@@ -31,9 +31,8 @@ namespace PixiEditor.Models.Tools.Tools
 
         public BitmapPixelChanges Draw(Coordinates startingCoords, Coordinates latestCords, Color color, int toolSize)
         {
-            LineTool line = new LineTool();
             return BitmapPixelChanges.FromSingleColoredArray(
-                line.CreateLine(startingCoords, latestCords, toolSize), color);
+                LineTool.CreateLine(startingCoords, latestCords, toolSize), color);
         }
     }
 }

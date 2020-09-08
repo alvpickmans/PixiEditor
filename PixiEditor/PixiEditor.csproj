@@ -30,6 +30,7 @@
     <None Remove="Images\AnchorDot.png" />
     <None Remove="Images\MoveImage.png" />
     <None Remove="Images\PixiEditorLogo.png" />
+    <None Remove="Images\PolygonImage.png" />
     <None Remove="Images\SelectImage.png" />
     <None Include="..\icon.ico">
       <Pack>True</Pack>
@@ -66,6 +67,7 @@
     <Resource Include="Images\PixiEditorLogo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\PolygonImage.png" />
     <Resource Include="Images\RectangleImage.png" />
     <Resource Include="Images\SelectImage.png" />
     <Resource Include="Images\transparentbg.png" />

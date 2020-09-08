@@ -10,6 +10,7 @@
         Line,
         Circle,
         Rectangle,
+        Polygon,
         Eraser,
         Brightness,
         ColorPicker
